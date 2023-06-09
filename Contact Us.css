@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container_div {
+    margin-top: 200px;
+    border: 1 px solid red;
+    width: 100%;
+    height: auto;
+    display: inline-flex;
+    position: relative;
+}
+
+.Contact_Us_Form_div {
+   
+    width: 70%;
+    height: auto;
+    /* background-color: aqua; */
+    position: relative;
+    margin-left: 5%;
+    margin-right: 8%;
+
+}
+
+.Contact_Us_Form_div h1 {
+    font-size: 50px;
+    font-weight: 1000;
+}
+
+.Contact_Us_Form_div p {
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.Contact_Us_Form_div input[type=text] {
+    width: 80%;
+    padding: 15px 22px;
+    margin: 10px 5px;
+    box-sizing: border-box;
+}
+
+::placeholder {
+    color: #525250;
+    opacity: 1;
+    font-size: 14px;
+}
+
+.Contact_Us_Form_div input[type=text],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.Contact_Us_Form_div textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.Contact_Us_Form_div input[type=submit] {
+    width: 100%;
+    background-color: #f9c935;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.Contact_Us_Form_div input[type=submit]:hover {
+    background-color: #f9c990;
+}
+
+
+
+
+
+
+
+
+
+.Contact_Us_Address_div {
+   
+    width: 30%;
+    height: auto;
+    /* background-color: bisque; */
+    position: relative
+}
+
+.Contact_Us_Address_div img {
+    margin-left: 110px;
+    margin-top: -20px;
+}
+
+.Contact_Us_Address_div h4 {
+    color: black;
+   
+}
+
+.Contact_Us_Address_div p {
+    color: black;
+    letter-spacing: 1px;
+   
+}
